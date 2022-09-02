@@ -62,7 +62,7 @@
 <meta property="og:image" content="http://tomonight.top/2022/08/22/%E2%80%9Credis%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83%E2%80%9D/redis/redis_21.png">
 <meta property="og:image" content="http://tomonight.top/2022/08/22/%E2%80%9Credis%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83%E2%80%9D/redis/redis_23.png">
 <meta property="article:published_time" content="2022-08-22T01:56:33.000Z">
-<meta property="article:modified_time" content="2022-09-02T03:01:51.494Z">
+<meta property="article:modified_time" content="2022-09-02T04:05:12.555Z">
 <meta property="article:author" content="tomonight">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://tomonight.top/2022/08/22/%E2%80%9Credis%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83%E2%80%9D/redis/back_th.png">
@@ -254,6 +254,7 @@
 <p>Zset 类型的底层数据结构是由压缩列表或跳表实现的：</p>
 <p>如果有序集合的元素个数小于 128 个，并且每个元素的值小于 64 字节时，Redis 会使用压缩列表作为 Zset 类型的底层数据结构；<br>如果有序集合的元素不满足上面的条件，Redis 会使用跳表作为 Zset 类型的底层数据结构；</p>
 <p>跳表：</p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/9d8296562806">跳表</a></p>
 <h3 id="HASH"><a href="#HASH" class="headerlink" title="HASH"></a>HASH</h3><p>常用命令： hset hget hgetall hlen hdel hincrby</p>
 <p>数据结构：listpack hashtable</p>
 <p>Hash 类型的底层数据结构是由压缩列表或哈希表实现的：</p>
